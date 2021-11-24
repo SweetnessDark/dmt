@@ -51,15 +51,41 @@ $media-expressions: (
   // Colors
   --color-white: #fff;
   --color-black: #000;
-  --color-grey: #999;
-  --color-blue: #39f;
+  --color-blue: #66689c;
+  --color-grey: #898691;
+  --color-yellow: #ffe18f;
+  --color-pink: #ffc7b0;
+  --color-navy-blue: #3e3b4a;
 
   // Fonts
-  --font-sans-serif: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  --font-serif: 'Times New Roman', Times, Baskerville, Georgia, serif;
+  --font-sans-serif: 'Campton Bold', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-sans-serif-light: 'Campton Light', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-serif: 'Old Standard TT', Times, Baskerville, Georgia, serif;
+  --font-serif-roman: 'Times Roman', Times, Baskerville, Georgia, serif;
+
+  @font-face {
+    font-family: 'Campton Bold';
+    src: url('../../fonts/Campton-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Campton Light';
+    src: url('../../fonts/Campton-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Times Roman';
+    src: url('../../fonts/Times-Roman.woff') format('woff'), url('../../fonts/Times-Roman.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+  }
 
   // Body base
-  --base-background-color: var(--color-black);
+  --base-background-color: var(--color-navy-blue);
   --base-font-family: var(--font-sans-serif);
   --base-font-size: 1.6rem;
   --base-line-height: 1.2;
@@ -94,4 +120,8 @@ $media-expressions: (
   --headings-sizes-h4: 2.1rem;
   --headings-sizes-h5: 1.7rem;
   --headings-sizes-h6: 1.5rem;
+
+  // Layout
+  --container-desktop-horizontal-padding: 5px;
+  --container-desktop-width: 1020px;
 }
