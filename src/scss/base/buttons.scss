@@ -1,0 +1,26 @@
+.btn {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    display: inline-block;
+    line-height: 1;
+    padding-top: 18px;
+
+    &-hamburger {
+        transition: background-color 250ms linear;
+        z-index: 101;
+    } 
+
+    &-text {
+        // padding-top: 6px;
+        // padding-left: 10px;
+        font-weight: var(--font-weight-btn-text);
+        font-size: var(--font-size-btn-text);
+        color: var(--color-grey);
+    }
+
+    &-search {
+        width: 22px;
+    }
+}
