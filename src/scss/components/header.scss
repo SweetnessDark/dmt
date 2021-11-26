@@ -1,4 +1,6 @@
 .header {
+    font-weight: var(--font-weight-search-input);
+    font-size: var(--font-size-search-input);
     .container {
         display: flex;
         justify-content: space-between;

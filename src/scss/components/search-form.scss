@@ -1,7 +1,5 @@
 .search-form {
     padding-top: 18px;
-    font-weight: var(--font-weight-search-input);
-    font-size: var(--font-size-search-input);
 
     .form {
         position: relative;
@@ -18,10 +16,11 @@
         border: none;
         outline: none;
         background: transparent;
+        font-weight: var(--font-weight-btn-text);
         
         &:focus {
             width: 200px;
-            right: 25px;
+            right: 29px;
             z-index: 1;
             border-bottom: 2px solid var(--color-grey);
             transition: .5s cubic-bezier(0, 0.8, 0, 1);
