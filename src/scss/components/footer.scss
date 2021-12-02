@@ -1,0 +1,10 @@
+.footer {
+    padding-top: 57px;
+    color: var(--color-grey);
+    font: var(--font-weight-footer) var(--font-size-footer) var(--font-sans-serif-light);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

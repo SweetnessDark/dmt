@@ -1,0 +1,15 @@
+.social-networks {
+    
+    .link-social {
+        @extend %listreset;
+        display: flex;
+
+        li {
+            padding-right: 23px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
