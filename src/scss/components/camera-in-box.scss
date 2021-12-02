@@ -1,0 +1,20 @@
+.camera-in-box {
+    
+    .text-in-box {
+        width: 214px;
+        top: 47%;
+        left: 14%;
+        color: var(--color-white);
+
+        h3 {
+            color: inherit;
+            font-weight: var(--font-weight-headings-box);
+            font-size: var(--font-size-headings-box);
+        }
+
+        p {
+            font: var(--font-weight-camera-box) var(--font-size-camera-box) var(--font-sans-serif-light);
+            padding-bottom: 187px;
+        }
+    }
+}
