@@ -140,6 +140,11 @@ $media-expressions: (
 
   --font-weight-camera-box: 400;
   --font-size-camera-box: 20px;
+  
+  // footer
+  
+  --font-weight-footer: 400;
+  --font-size-footer: 14px;
 
   // Variables Font Weight and Size
 
@@ -148,7 +153,6 @@ $media-expressions: (
 
   --font-weight: 400;
   --font-size: 24px;
-  
 
   // Body base
   --base-background-color: var(--color-navy-blue);

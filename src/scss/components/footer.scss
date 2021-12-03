@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 57px;
+    color: var(--color-grey);
+    font: var(--font-weight-footer) var(--font-size-footer) var(--font-sans-serif-light);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        @media (min-width: 376px) and (max-width: 481px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}

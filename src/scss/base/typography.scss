@@ -48,9 +48,4 @@ a {
   &:focus {
     text-decoration: none;
   }
-  @include media('hover') {
-    &:hover {
-      text-decoration: none;
-    }
-  }
 }
