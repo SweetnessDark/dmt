@@ -1,0 +1,36 @@
+.box {
+    position: relative;
+
+    .text-in-box {
+        position: absolute;
+        top: 47%;
+        left: 19%;
+        transform: translate(-50%,-50%);
+
+        p {
+            padding-top: 25px;
+
+            &:first-child {
+                color: var(--color-yellow);
+                font-weight: var(--font-weight-text-first-child);
+                font-size: var(--font-size-text-first-child);
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    .link {
+        padding: 9px;
+        color: var(--color-white);
+        font-weight: var(--font-weight-box-link);
+        font-size: var(--font-size-box-link);
+        border: 3px solid var(--color-yellow);
+        transition: linear 250ms;
+
+        &:hover,
+        &:active {
+            color: var(--color-grey-black);
+            background-color: var(--color-yellow);
+        }
+    }
+}

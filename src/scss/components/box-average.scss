@@ -1,0 +1,20 @@
+.box-average {
+    color: var(--color-white);
+
+    .text-in-box {
+        max-width: 200px;
+        left: 13%;
+
+        h2 {
+            color: inherit;
+            font-weight: var(--font-weight-box-headings-average);
+            font-size: var(--font-size-box-headings-average);
+        }
+    
+        p {
+            color: inherit;
+            font: var(--font-weight-box-average) var(--font-size-box-average) var(--font-sans-serif-light);
+            padding-bottom: 196px;
+        }
+    }
+}

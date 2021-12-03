@@ -1,0 +1,19 @@
+.box-featured {
+    color: var(--color-white);
+
+    .text-in-box {
+        max-width: 310px;
+
+        h1 {
+            color: inherit;
+            font-weight: var(--font-weight-box-headings-featured);
+            font-size: var(--font-size-box-headings-featured);
+        }
+
+        p {
+            color: inherit;
+            font: var(--font-weight-box-featured) var(--font-size-box-featured) var(--font-sans-serif-light);
+            padding-bottom: 55px;
+        }
+    }
+}

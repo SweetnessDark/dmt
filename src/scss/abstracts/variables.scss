@@ -56,6 +56,8 @@ $media-expressions: (
   --color-yellow: #ffe18f;
   --color-pink: #ffc7b0;
   --color-navy-blue: #3e3b4a;
+  --color-red: #eb7b61;
+  --color-grey-black: #3d3c4a;
 
   // Fonts
   --font-sans-serif: 'Campton Bold', 'Helvetica Neue', Helvetica, sans-serif;
@@ -85,8 +87,72 @@ $media-expressions: (
   }
 
   // Font Style
+  
+  // header
+  --font-weight-btn-text: var(--font-weight);
+  --font-size-btn-text: var(--font-size);
+
+  --font-weight-search-input: var(--font-weight);
+  --font-size-search-input: var(--font-size);
+
+  --font-weight: 700;
+  --font-size: 12px;
+  
+  // box-featured
+  --font-weight-text-first-child: var(--font-weight-headings);
+  --font-size-text-first-child: 14px;
+
+  --font-weight-box-headings-featured: var(--font-weight-headings);
+  --font-size-box-headings-featured: 72px;
+
+  --font-weight-box-featured: var(--font-weight);
+  --font-size-box-featured: 36px;
+
+  --font-weight-box-link: var(--font-weight-headings);
+  --font-size-box-link: 20px;
+
+  // box-average
+
+  --font-weight-box-headings-average: var(--font-weight-headings);
+  --font-size-box-headings-average: var(--font-size-headings);
+
+  --font-weight-box-average: var(--font-weight);
+  --font-size-box-average: var(--font-size);
+
+  // form-box
+
+  --font-weight-headings-form-box: var(--font-weight-headings);
+  --font-size-headings-form-box: var(--font-size-headings);
+
+  --font-weight-form-box: var(--font-weight);
+  --font-size-form-box: var(--font-size);
+
+  --font-weight-form: var(--font-weight-headings);
+  --font-size-form: 20px;
+
+  --font-weight-last-information: var(--font-weight);
+  --font-size-last-information: 14px;
+
+  // small-box and camera-in-box
+
+  --font-weight-headings-box: 700;
+  --font-size-headings-box: 36px;
+
+  --font-weight-camera-box: 400;
+  --font-size-camera-box: 20px;
+  
+  // footer
+  
   --font-weight-footer: 400;
   --font-size-footer: 14px;
+
+  // Variables Font Weight and Size
+
+  --font-weight-headings: 700;
+  --font-size-headings: 48px;
+
+  --font-weight: 400;
+  --font-size: 24px;
 
   // Body base
   --base-background-color: var(--color-navy-blue);
