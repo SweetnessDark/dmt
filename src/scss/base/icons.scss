@@ -49,12 +49,9 @@
         }
     }
     
-    &-button {
-        width: 22px;
-
-        &:hover,
-        &:active {
-            stroke: var(--color-yellow); fill: var(--color-yellow); 
-        }
+    svg:hover,
+    svg:active {
+        stroke: var(--color-yellow); 
+        fill: var(--color-yellow); 
     }
 }
