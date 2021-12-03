@@ -87,7 +87,17 @@ $media-expressions: (
   }
 
   // Font Style
+  
+  // header
+  --font-weight-btn-text: var(--font-weight);
+  --font-size-btn-text: var(--font-size);
 
+  --font-weight-search-input: var(--font-weight);
+  --font-size-search-input: var(--font-size);
+
+  --font-weight: 700;
+  --font-size: 12px;
+  
   // box-featured
   --font-weight-text-first-child: var(--font-weight-headings);
   --font-size-text-first-child: 14px;
@@ -138,6 +148,7 @@ $media-expressions: (
 
   --font-weight: 400;
   --font-size: 24px;
+  
 
   // Body base
   --base-background-color: var(--color-navy-blue);
