@@ -9,6 +9,12 @@
     &-hamburger {
         transition: background-color 250ms linear;
         z-index: 101;
+
+        @media (min-width: 376px) and (max-width: 481px) {
+            position: absolute;
+            top: 40%;
+            left: 38%;
+        }
     } 
 
     &-text {

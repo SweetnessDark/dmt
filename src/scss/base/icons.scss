@@ -41,6 +41,14 @@
             }
         }
     }
+
+    &-search {
+        @media (min-width: 376px) and (max-width: 481px) {
+            position: absolute;
+            top: 80px;
+        }
+    }
+    
     &-button {
         width: 22px;
 
