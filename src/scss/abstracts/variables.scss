@@ -90,13 +90,10 @@ $media-expressions: (
   
   // header
   --font-weight-btn-text: var(--font-weight);
-  --font-size-btn-text: var(--font-size);
+  --font-size-btn-text: 12px;
 
   --font-weight-search-input: var(--font-weight);
-  --font-size-search-input: var(--font-size);
-
-  --font-weight: 700;
-  --font-size: 12px;
+  --font-size-search-input: 12px;
   
   // box-featured
   --font-weight-text-first-child: var(--font-weight-headings);
