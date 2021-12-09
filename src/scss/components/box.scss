@@ -4,8 +4,13 @@
     .text-in-box {
         position: absolute;
         top: 47%;
-        left: 19%;
+        left: 20%;
         transform: translate(-50%,-50%);
+        z-index: 100;
+
+        @media (min-width: 376px) and (max-width: 481px) {
+            left: 36%;
+        }
 
         p {
             padding-top: 25px;
@@ -15,6 +20,10 @@
                 font-weight: var(--font-weight-text-first-child);
                 font-size: var(--font-size-text-first-child);
                 padding-bottom: 0;
+            }
+
+            @media (min-width: 376px) and (max-width: 481px) {
+                padding-top: 10px;
             }
         }
     }

@@ -4,6 +4,10 @@
     color: var(--color-grey);
     font: var(--font-weight-footer) var(--font-size-footer) var(--font-sans-serif-light);
 
+    @media (min-width: 376px) and (max-width: 481px) {
+        padding-bottom: 30px;
+    }
+
     .container {
         display: flex;
         justify-content: space-between;

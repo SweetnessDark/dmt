@@ -4,8 +4,6 @@
 // Feel free with using ES6 here.
 import $ from 'jquery';
 
-import dots from './modules/dots';
-
 // When DOM is ready
 $(() => {
   	const $body = $('body');
@@ -28,5 +26,14 @@ $(() => {
 	$btnSearch.on('click', () => {
 		$input.toggleClass(SEARCH_INPUT_ACTIVE_CLASS_NAME).focus;
 	});
+
+	// initialize with selector string
+	const pckry = new Packery('.boxes', {
+		itemSelector: '.box',
+		gutter: 10,
+		columnWidth: 20,
+		rowHeight: 10,
+		percentPosition: true
+});
   
 });
