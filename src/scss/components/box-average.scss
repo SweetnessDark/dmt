@@ -3,7 +3,11 @@
 
     .text-in-box {
         max-width: 200px;
-        left: 13%;
+        left: 23%;
+
+        @media (min-width: 376px) and (max-width: 481px) {
+            left: 33%;
+        }
 
         h2 {
             color: inherit;
@@ -15,6 +19,10 @@
             color: inherit;
             font: var(--font-weight-box-average) var(--font-size-box-average) var(--font-sans-serif-light);
             padding-bottom: 196px;
+
+            @media (min-width: 376px) and (max-width: 481px) {
+                padding-bottom: 100px;
+            }
         }
     }
 }

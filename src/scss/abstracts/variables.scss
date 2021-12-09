@@ -108,6 +108,20 @@ $media-expressions: (
   --font-weight-box-link: var(--font-weight-headings);
   --font-size-box-link: 20px;
 
+  @media (min-width: 376px) and (max-width: 481px) {
+    --font-weight-text-first-child: var(--font-weight-headings);
+    --font-size-text-first-child: 14px;
+  
+    --font-weight-box-headings-featured: var(--font-weight-headings);
+    --font-size-box-headings-featured: 26px;
+  
+    --font-weight-box-featured: var(--font-weight);
+    --font-size-box-featured: 14px;
+  
+    --font-weight-box-link: var(--font-weight-headings);
+    --font-size-box-link: 14px;
+}
+
   // box-average
 
   --font-weight-box-headings-average: var(--font-weight-headings);
@@ -115,6 +129,14 @@ $media-expressions: (
 
   --font-weight-box-average: var(--font-weight);
   --font-size-box-average: var(--font-size);
+
+  @media (min-width: 376px) and (max-width: 481px) {
+    --font-weight-box-headings-average: var(--font-weight-headings);
+    --font-size-box-headings-average: 26px;
+
+    --font-weight-box-average: var(--font-weight);
+    --font-size-box-average: 14px;
+}
 
   // form-box
 

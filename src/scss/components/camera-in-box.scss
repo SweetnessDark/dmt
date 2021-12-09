@@ -3,8 +3,12 @@
     .text-in-box {
         width: 214px;
         top: 47%;
-        left: 14%;
+        left: 30%;
         color: var(--color-white);
+
+        @media (min-width: 376px) and (max-width: 481px) {
+            left: 35%;
+        }
 
         h3 {
             color: inherit;
@@ -15,6 +19,10 @@
         p {
             font: var(--font-weight-camera-box) var(--font-size-camera-box) var(--font-sans-serif-light);
             padding-bottom: 187px;
+
+            @media (min-width: 376px) and (max-width: 481px) {
+                padding-bottom: 100px;
+            }
         }
     }
 }

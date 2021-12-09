@@ -1,7 +1,12 @@
 .form-box {
     width: 378px;
-    padding: 76px 0 76px;
+    padding: 76px 0 37px;
     background-color: var(--color-red);
+
+    @media (min-width: 376px) and (max-width: 481px) {
+        width: 346px;
+        margin-bottom: 10px;
+    }
     
     .form-in-box {
         text-align: center;
@@ -24,6 +29,10 @@
         padding-left: 50px;
         padding-bottom: 32px;
         font: var(--font-weight-form) var(--font-size-form) var(--font-sans-serif);
+        
+        @media (min-width: 376px) and (max-width: 481px) {
+            padding-left: 35px;
+        }
         
         .feedback {
             width: 279px;
