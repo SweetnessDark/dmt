@@ -3,7 +3,7 @@
     .text-in-box {
         width: 214px;
         top: 47%;
-        left: 14%;
+        left: 32%;
         color: var(--color-white);
 
         h3 {
@@ -16,5 +16,9 @@
             font: var(--font-weight-camera-box) var(--font-size-camera-box) var(--font-sans-serif-light);
             padding-bottom: 187px;
         }
+    }
+
+    img {
+        width: 460px;
     }
 }
