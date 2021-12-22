@@ -6,22 +6,29 @@
     line-height: 1;
     
     &-hamburger {
-        padding-top: 18px;
         transition: background-color 250ms linear;
         z-index: 101;
 
         @media (min-width: 376px) and (max-width: 481px) {
             position: absolute;
-            top: 40%;
+            top: 69%;
+            left: 38%;
+        }
+
+        @media (min-width: 320px) and (max-width: 375px) {
+            position: absolute;
+            top: 69%;
             left: 38%;
         }
     }
 
     &-text {
-        // padding-top: 6px;
-        // padding-left: 10px;
+        position: absolute;
+        margin-top: -1px;
+        margin-left: 10px;
         font-weight: var(--font-weight-btn-text);
         color: var(--color-grey);
+        letter-spacing: 1.2px;
     }
 
     &-search {

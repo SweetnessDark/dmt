@@ -30,9 +30,8 @@ $(() => {
 	// initialize with selector string
 	const pckry = new Packery('.boxes', {
 		itemSelector: '.box',
-		gutter: 10,
-		columnWidth: 20,
-		rowHeight: 10,
+		gutter: 16,
+		rowHeight: 9,
 		percentPosition: true
 });
   

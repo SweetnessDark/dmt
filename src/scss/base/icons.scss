@@ -4,6 +4,7 @@
 
     &-hamburger {
         position: relative;
+        top: -5px;
         width: 22px;
         height: 3px;
         background-color: var(--color-grey);
@@ -22,21 +23,21 @@
         }
 
         &:before {
-            top: -5px;
+            top: -8px;
         }
         &:after {
-            bottom: -5px;
+            bottom: -8px;
         }
 
         .is-opened & {
             background-color: transparent;
 
             &:before {
-                transform: translate(7px, -3px) rotate(49deg);
+                transform: translate(7px, 2px) rotate(49deg);
                 transform-origin: left top;
             }
             &:after {
-                transform: translate(0, -14px) rotate(-49deg);
+                transform: translate(0, -15px) rotate(-49deg);
                 transform-origin: right bottom;
             }
         }
@@ -44,6 +45,11 @@
 
     &-search {
         @media (min-width: 376px) and (max-width: 481px) {
+            position: absolute;
+            top: 80px;
+        }
+
+        @media (min-width: 320px) and (max-width: 375px) {
             position: absolute;
             top: 80px;
         }

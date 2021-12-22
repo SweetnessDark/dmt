@@ -5,9 +5,14 @@
     .container {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 75px;
+        padding-bottom: 70px;
 
         @media (min-width: 376px) and (max-width: 481px) {
+            justify-content: center;
+            padding-bottom: 150px;
+        }
+
+        @media (min-width: 320px) and (max-width: 375px) {
             justify-content: center;
             padding-bottom: 150px;
         }

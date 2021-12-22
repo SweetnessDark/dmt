@@ -7,6 +7,13 @@
         margin-bottom: 7px;
     }
 
+    @media (min-width: 320px) and (max-width: 375px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+
     .employees-in-company {
         position: absolute;
         top: 35px;
@@ -22,8 +29,13 @@
             left: 90px;
         }
 
+        @media (min-width: 320px) and (max-width: 375px) {
+            left: 70px;
+        }
+
         p {
             padding-bottom: 145px;
+            letter-spacing: 3px;
         }
 
         .text-sound {

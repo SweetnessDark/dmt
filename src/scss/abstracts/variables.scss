@@ -89,10 +89,10 @@ $media-expressions: (
   // Font Style
   
   // header
-  --font-weight-btn-text: var(--font-weight);
+  --font-weight-btn-text: var(--font-weight-headings);
   --font-size-btn-text: 12px;
 
-  --font-weight-search-input: var(--font-weight);
+  --font-weight-search-input: var(--font-weight-headings);
   --font-size-search-input: 12px;
   
   // box-featured
@@ -122,6 +122,20 @@ $media-expressions: (
     --font-size-box-link: 14px;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  --font-weight-text-first-child: var(--font-weight-headings);
+  --font-size-text-first-child: 14px;
+
+  --font-weight-box-headings-featured: var(--font-weight-headings);
+  --font-size-box-headings-featured: 26px;
+
+  --font-weight-box-featured: var(--font-weight);
+  --font-size-box-featured: 14px;
+
+  --font-weight-box-link: var(--font-weight-headings);
+  --font-size-box-link: 14px;
+}
+
   // box-average
 
   --font-weight-box-headings-average: var(--font-weight-headings);
@@ -136,6 +150,14 @@ $media-expressions: (
 
     --font-weight-box-average: var(--font-weight);
     --font-size-box-average: 14px;
+}
+
+  @media (min-width: 320px) and (max-width: 375px) {
+  --font-weight-box-headings-average: var(--font-weight-headings);
+  --font-size-box-headings-average: 26px;
+
+  --font-weight-box-average: var(--font-weight);
+  --font-size-box-average: 14px;
 }
 
   // form-box
@@ -212,5 +234,5 @@ $media-expressions: (
 
   // Layout
   --container-desktop-horizontal-padding: 5px;
-  --container-desktop-width: 1020px;
+  --container-desktop-width: 1025px;
 }
