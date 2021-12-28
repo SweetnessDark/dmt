@@ -1,0 +1,11 @@
+.boxes {
+    @media (min-width: 376px) and (max-width: 481px) {
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        display: flex;
+        justify-content: center;
+    }
+}

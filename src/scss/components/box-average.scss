@@ -1,17 +1,24 @@
 .box-average {
+    width: 622px;
+    height: 484px;
     color: var(--color-white);
+    background-color: var(--color-grey);
+
+    @media (min-width: 376px) and (max-width: 481px) {
+        width: 346px;
+        height: 270px;
+        margin-top: 10px;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        width: 310px;
+        height: 242px;
+        margin-top: 13px;
+    }
 
     .text-in-box {
         max-width: 200px;
-        left: 22%;
-
-        @media (min-width: 376px) and (max-width: 481px) {
-            left: 33%;
-        }
-
-        @media (min-width: 320px) and (max-width: 375px) {
-            left: 36%;
-        }
+        left: 4%;
 
         h2 {
             color: inherit;
@@ -22,15 +29,6 @@
         p {
             color: inherit;
             font: var(--font-weight-box-average) var(--font-size-box-average) var(--font-sans-serif-light);
-            padding-bottom: 196px;
-
-            @media (min-width: 376px) and (max-width: 481px) {
-                padding-bottom: 100px;
-            }
-
-            @media (min-width: 320px) and (max-width: 375px) {
-                padding-bottom: 100px;
-            }
         }
     }
 }

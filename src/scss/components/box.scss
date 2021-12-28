@@ -3,18 +3,14 @@
 
     .text-in-box {
         position: absolute;
-        top: 44%;
-        left: 20%;
-        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         z-index: 100;
+        margin-top: 22px;
 
-        @media (min-width: 376px) and (max-width: 481px) {
-            left: 36%;
-        }
-
-        @media (min-width: 320px) and (max-width: 375px) {
-            top: 43%;
-            left: 36%;
+        .content-box {
+            flex: 1 0 auto;
         }
 
         p {
@@ -27,24 +23,27 @@
                 margin-bottom: 0;
                 letter-spacing: 3px;
             }
-
-            @media (min-width: 376px) and (max-width: 481px) {
-                padding-top: 10px;
-            }
-
-            @media (min-width: 320px) and (max-width: 375px) {
-                padding-top: 10px;
-            }
         }
     }
 
     .link {
+        width: 128px;
         padding: 9px;
+        margin-bottom: 37px;
         color: var(--color-white);
         font-weight: var(--font-weight-box-link);
         font-size: var(--font-size-box-link);
         border: 3px solid var(--color-yellow);
         transition: linear 250ms;
+        flex: 0 0 auto;
+
+        &-in-small-box {
+            margin-left: 65px;
+        }
+        
+        a {
+            color: inherit;
+        }
 
         &:hover,
         &:active {

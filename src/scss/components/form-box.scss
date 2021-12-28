@@ -6,11 +6,13 @@
     @media (min-width: 376px) and (max-width: 481px) {
         width: 346px;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     @media (min-width: 320px) and (max-width: 375px) {
         width: 310px;
         margin-bottom: 8px;
+        margin-top: 8px;
     }
     
     .form-in-box {
@@ -63,6 +65,12 @@
             background-color: var(--color-blue);
             border: none;
             line-height: 2.5;
+            transition: linear 250ms;
+
+            &:hover {
+                color: var(--color-grey-black);
+                background-color: var(--color-yellow);
+            }
         }
     }
 

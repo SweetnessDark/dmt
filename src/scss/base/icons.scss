@@ -10,6 +10,18 @@
         background-color: var(--color-grey);
         transition: transform 250ms linear;
 
+        &:hover {
+            background-color: var(--color-yellow);
+        }
+
+        &:hover:before {
+            background-color: var(--color-yellow);
+        }
+
+        &:hover:after {
+            background-color: var(--color-yellow);
+        }
+
         &:before,
         &:after {
             position: absolute;

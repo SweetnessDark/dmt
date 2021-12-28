@@ -3,6 +3,15 @@
         @media (min-width: 376px) and (max-width: 481px) {
             padding-left: 15px;
             padding-right: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (min-width: 320px) and (max-width: 375px) {
+            padding-left: 5px;
+            padding-right: 5px;
+            display: flex;
+            justify-content: center;
         }
     }
 }

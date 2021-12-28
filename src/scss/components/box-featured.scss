@@ -1,9 +1,22 @@
 .box-featured {
+    width: 1015px;
+    height: 510px;
     color: var(--color-white);
+    background-color: var(--color-grey);
+
+    @media (min-width: 376px) and (max-width: 481px) {
+        width: 346px;
+        height: 174px;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        width: 310px;
+        height: 150px;
+    }
 
     .text-in-box {
         max-width: 310px;
-        left: 19%;
+        left: 3%;
 
         h1 {
             color: inherit;
@@ -14,15 +27,6 @@
         p {
             color: inherit;
             font: var(--font-weight-box-featured) var(--font-size-box-featured) var(--font-sans-serif-light);
-            margin-bottom: 44px;
-
-            @media (min-width: 376px) and (max-width: 481px) {
-                margin-bottom: 25px;
-            }
-
-            @media (min-width: 320px) and (max-width: 375px) {
-                margin-bottom: 20px;
-            }
         }
     }
 }
