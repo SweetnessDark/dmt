@@ -7,7 +7,7 @@
         flex-direction: column;
         height: 100%;
         z-index: 100;
-        padding: 20px 5px;
+        padding: 36px 5px;
 
         .content-box {
             flex: 1 0 auto;
@@ -28,7 +28,8 @@
 
     .link {
         width: 128px;
-        padding: 9px;
+        padding: 6px;
+        text-align: center;
         margin-top: auto;
         color: var(--color-white);
         font-weight: var(--font-weight-box-link);
