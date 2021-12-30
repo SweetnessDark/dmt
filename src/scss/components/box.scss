@@ -7,7 +7,7 @@
         flex-direction: column;
         height: 100%;
         z-index: 100;
-        margin-top: 22px;
+        padding: 20px 5px;
 
         .content-box {
             flex: 1 0 auto;
@@ -29,17 +29,12 @@
     .link {
         width: 128px;
         padding: 9px;
-        margin-bottom: 37px;
+        margin-top: auto;
         color: var(--color-white);
         font-weight: var(--font-weight-box-link);
         font-size: var(--font-size-box-link);
         border: 3px solid var(--color-yellow);
         transition: linear 250ms;
-        flex: 0 0 auto;
-
-        &-in-small-box {
-            margin-left: 65px;
-        }
         
         a {
             color: inherit;
