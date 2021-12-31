@@ -30,6 +30,8 @@
 
         &.is-opened {
             position: fixed;
+            top: 15%;
+            left: 1%;
 
             @media (min-width: 376px) and (max-width: 481px) {
                 top: 30%;
