@@ -20,6 +20,12 @@ body {
   min-width: var(--base-min-width);
   margin: 0 auto;
   padding-top: 72px;
+  display: flex;
+  flex-direction: column;
+
+  .is-modal-opened {
+    overflow: hidden;
+  }
 }
 
 a {

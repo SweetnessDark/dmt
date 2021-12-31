@@ -7,23 +7,38 @@
     
     &-hamburger {
         transition: background-color 250ms linear;
-        z-index: 101;
+        z-index: 102;
 
         @media (min-width: 376px) and (max-width: 481px) {
             position: absolute;
-            top: 69%;
+            top: 41%;
             left: 38%;
         }
 
         @media (min-width: 320px) and (max-width: 375px) {
             position: absolute;
-            top: 69%;
+            top: 40%;
             left: 38%;
         }
 
-        &:hover {
+        &:hover,
+        &:active {
             .btn-text {
                 color: var(--color-yellow);
+            }
+        }
+
+        &.is-opened {
+            position: fixed;
+
+            @media (min-width: 376px) and (max-width: 481px) {
+                top: 30%;
+                left: 38%;
+            }
+    
+            @media (min-width: 320px) and (max-width: 375px) {
+                top: 28%;
+                left: 38%;
             }
         }
     }

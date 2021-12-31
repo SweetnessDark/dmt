@@ -1,0 +1,23 @@
+.nav-list {
+    @extend %listreset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-grey);
+    font: var(--font-weight-box-link) var(--font-size-box-link) var(--font-sans-serif);
+
+    li {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .nav-link {
+        color: inherit;
+
+        &:hover,
+        &:active {
+            color: var(--color-yellow);
+        }
+    }
+}

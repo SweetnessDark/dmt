@@ -11,7 +11,6 @@ $(() => {
 	const $nav = $('.nav');
 	const $btnSearch = $('.btn-search');
 	const $input = $('.search-input');
-	// const BTN_SEARCH_CLASS_NAME = 'is-search-opened';
 	const SEARCH_INPUT_ACTIVE_CLASS_NAME = 'is-active-search';
 	const MODAL_OPENED_CLASS_NAME = 'is-modal-opened';
 	const BTN_HAMBURGER_ACTIVE_CLASS_NAME = 'is-opened';
