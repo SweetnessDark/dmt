@@ -30,16 +30,15 @@
         z-index: 100;
 
         .content-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             flex: 1 0 auto;
         }
 
         p {
             letter-spacing: 3px;
-            padding-bottom: 146px;
-        }
-
-        .text-small-box {
-            padding-bottom: 128px;
         }
         
         h3 {
